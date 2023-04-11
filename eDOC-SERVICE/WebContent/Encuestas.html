@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>eDOC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="alumno_inicio.html"><i class= "fa fa-home"></i>Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alumno_encuestas.html"><i class= "fa fa-paste"></i>Encuestas</a>
+            </li>
+          </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-user-circle" aria-hidden="true">  Usuario xxxx</i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="login.html"><i class="fa fa-sign-out-alt mr-2" aria-hidden="true"></i>Cerrar sesión</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Editar perfil</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class="container">
+            <section class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Evaluación Docente</h1>
+                    <p class="text-center">Encuesta de Asignatura</p>
+                </div>
+
+                <form name="encuesta">
+                    <!--  Sobre la Documentación  -->
+                    <section class="row">
+                        <div class="col-md-12">
+                            <h3>Sobre la documentación</h3>
+                            <p></p>
+                        </div>
+                    </section>
+                    <!--  PREGUNTA 1  -->
+                    <section class="row">
+                        <div class="col-md-12">
+                            <p>1- ¿Los apuntes son claros y de utilidad?</p>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="10" id="apuntesA" value="10"> Excelente
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="apuntes" id="apuntesB" value="7.5"> Bueno
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="apuntes" id="apuntesC" value="5"> Regular
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="apuntes" id="apuntesD" value="2.5"> Mala
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="apuntes" id="apuntesE" value="0"> Muy Mala
+                            </label>
+                        </div>
+                    </section>
+                    <br>
+                    <!--  PREGUNTA 2  -->
+                    <section class="row">
+                        <div class="col-md-12">
+                            <p>2- ¿La bibliografía recomendada es accesible y de utilidad?</p>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="bibliografia" id="bibliografiaA" value="10"> Excelente
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="bibliografia" id="bibliografiaB" value="7.5"> Bueno
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="bibliografia" id="bibliografíaC" value="5"> Regular
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="bibliografia" id="bibliografíaD" value="2.5"> Mala
+                            </label>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="radio">
+                                <input type="radio" name="bibliografia" id="bibliografíaE" value="0"> Muy Mala
+                            </label>
+                        </div>
+                    </section>
+                    <br><hr>
+                    <!--  Sobre las pruebas de evaluación  -->
+                    <section class="row">
+                      <div class="col-md-12">
+                          <h3>Sobre las pruebas de evaluación</h3>
+                          <p></p>
+                      </div>
+                  </section>
+                  <!--  PREGUNTA 3  -->
+                  <section class="row">
+                    <div class="col-md-12">
+                        <p>3- ¿El esfuerzo que lleva realizar las prácticas es el esperado para esta asignatura?</p>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="practicas" id="practicasA" value="10"> Excelente
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="practicas" id="practicasB" value="7.5"> Bueno
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="practicas" id="practicasC" value="5"> Regular
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="practicas" id="practicasD" value="2.5"> Mala
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="practicas" id="practicasE" value="0"> Muy Mala
+                        </label>
+                    </div>
+                </section>
+                <br>
+                <!--  PREGUNTA 4  -->
+                <section class="row">
+                  <div class="col-md-12">
+                      <p>4- ¿El esfuerzo que lleva realizar los trabajos es el esperado para esta asignatura?</p>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="trabajos" id="trabajosA" value="10"> Excelente
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="trabajos" id="trabajosB" value="7.5"> Bueno
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="trabajos" id="trabajosC" value="5"> Regular
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="trabajos" id="trabajosD" value="2.5"> Mala
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="trabajos" id="trabajosE" value="0"> Muy Mala
+                      </label>
+                  </div>
+              </section>
+              <br>
+                  <!--  PREGUNTA 5  -->
+                  <section class="row">
+                    <div class="col-md-12">
+                        <p>5- ¿El esfuerzo que lleva realizar los exámenes es el esperado para esta asignatura?</p>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="examenes" id="examenesA" value="10"> Excelente
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="examenes" id="examenesB" value="7.5"> Bueno
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="examenes" id="examenesC" value="5"> Regular
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="examenes" id="examenesD" value="2.5"> Mala
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="examenes" id="examenesE" value="0"> Muy Mala
+                        </label>
+                    </div>
+                </section>
+                <br>
+                <!--  PREGUNTA 6  -->
+                <section class="row">
+                  <div class="col-md-12">
+                      <p>6- ¿El sistema de evaluación es adecuado?</p>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="sistema" id="sistemaA" value="10"> Excelente
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="sistema" id="sistemaB" value="7.5"> Bueno
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="sistema" id="sistemaC" value="5"> Regular
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="sistema" id="sistemaD" value="2.5"> Mala
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="sistema" id="sistemaE" value="0"> Muy Mala
+                      </label>
+                  </div>
+              </section>
+              <br>
+              <!--  PREGUNTA 7  -->
+              <section class="row">
+                <div class="col-md-12">
+                    <p>7- ¿El esfuerzo necesario para aprobar es adecuado?</p>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="esfuerzo" id="esfuerzoA" value="10"> Excelente
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="esfuerzo" id="esfuerzoB" value="7.5"> Bueno
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="esfuerzo" id="esfuerzoC" value="5"> Regular
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="esfuerzo" id="esfuerzoD" value="2.5"> Mala
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="esfuerzo" id="esfuerzoE" value="0"> Muy Mala
+                    </label>
+                </div>
+            </section>
+                  <br><hr>
+                    <!--  Sobre las clases  -->
+                    <section class="row">
+                      <div class="col-md-12">
+                          <h3>Sobre las clases</h3>
+                          <p></p>
+                      </div>
+                  </section>
+                  <!--  PREGUNTA 8  -->
+                  <section class="row">
+                    <div class="col-md-12">
+                        <p>8- ¿La distribución de horas teóricas y prácticas es adecuada?</p>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="horas" id="horasA" value="10"> Excelente
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="horas" id="horasB" value="7.5"> Bueno
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="horas" id="horasC" value="5"> Regular
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="horas" id="horasD" value="2.5"> Mala
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="horas" id="horasE" value="0"> Muy Mala
+                        </label>
+                    </div>
+                </section>
+                <br>
+                  <!--  PREGUNTA 9  -->
+                  <section class="row">
+                    <div class="col-md-12">
+                        <p>9- ¿No se han producido solapamientos con otras asignaturas?</p>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="solapamientosA" id="solapamientosA" value="10"> Excelente
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="solapamientos" id="solapamientosB" value="7.5"> Bueno
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="solapamientos" id="solapamientosC" value="5"> Regular
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="solapamientos" id="solapamientosD" value="2.5"> Mala
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="solapamientos" id="solapamientosE" value="0"> Muy Mala
+                        </label>
+                    </div>
+                </section>
+                  <br><hr>
+                    <!--  Sobre el profesorado  -->
+                    <section class="row">
+                      <div class="col-md-12">
+                          <h3>Sobre el profesorado</h3>
+                          <p></p>
+                      </div>
+                  </section>
+                  <!--  PREGUNTA 10  -->
+                  <section class="row">
+                    <div class="col-md-12">
+                        <p>10- ¿El profesor evalúa corretamente?</p>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="evaluacion" id="evaluacionA" value="10"> Excelente
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="evaluacion" id="evaluacionB" value="7.5"> Bueno
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="evaluacion" id="evaluacionC" value="5"> Regular
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="evaluacion" id="evaluacionD" value="2.5"> Mala
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="radio">
+                            <input type="radio" name="evaluacion" id="evaluacionE" value="0"> Muy Mala
+                        </label>
+                    </div>
+                </section>
+                <br>
+                 <!--  PREGUNTA 11  -->
+                 <section class="row">
+                  <div class="col-md-12">
+                      <p>11- El profesorado de la asignatura está bien coordinado?</p>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="coordinacion" id="coordinacionA" value="10"> Excelente
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="coordinacion" id="coordinacionB" value="7.5"> Bueno
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="coordinacion" id="coordinacionC" value="5"> Regular
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="coordinacion" id="coordinacionD" value="2.5"> Mala
+                      </label>
+                  </div>
+                  <div class="col-md-2">
+                      <label class="radio">
+                          <input type="radio" name="coordinacion" id="coordinacionE" value="0"> Muy Mala
+                      </label>
+                  </div>
+              </section>
+              <br>
+              <!--  PREGUNTA 12  -->
+              <section class="row">
+                <div class="col-md-12">
+                    <p>12- ¿El profesor respeta el horario de clase?</p>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="horario" id="horarioA" value="10"> Excelente
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="horario" id="horarioB" value="7.5"> Bueno
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="horario" id="horarioC" value="5"> Regular
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="horario" id="horarioD" value="2.5"> Mala
+                    </label>
+                </div>
+                <div class="col-md-2">
+                    <label class="radio">
+                        <input type="radio" name="horario" id="horarioE" value="0"> Muy Mala
+                    </label>
+                </div>
+            </section>
+            <br>
+            <!--  PREGUNTA 13  -->
+            <section class="row">
+              <div class="col-md-12">
+                  <p>13- ¿El profesor explica con claridad?</p>
+              </div>
+              <div class="col-md-2">
+                  <label class="radio">
+                      <input type="radio" name="claridad" id="claridadA" value="10"> Excelente
+                  </label>
+              </div>
+              <div class="col-md-2">
+                  <label class="radio">
+                      <input type="radio" name="claridad" id="claridadB" value="7.5"> Bueno
+                  </label>
+              </div>
+              <div class="col-md-2">
+                  <label class="radio">
+                      <input type="radio" name="claridad" id="claridadC" value="5"> Regular
+                  </label>
+              </div>
+              <div class="col-md-2">
+                  <label class="radio">
+                      <input type="radio" name="claridad" id="claridadD" value="2.5"> Mala
+                  </label>
+              </div>
+              <div class="col-md-2">
+                  <label class="radio">
+                      <input type="radio" name="claridad" id="claridadE" value="0"> Muy Mala
+                  </label>
+              </div>
+          </section>
+          <br>
+          <!--  PREGUNTA 14  -->
+          <section class="row">
+            <div class="col-md-12">
+                <p>14- ¿Considera al profesor un buen docente?</p>
+            </div>
+            <div class="col-md-2">
+                <label class="radio">
+                    <input type="radio" name="docente" id="docenteA" value="10"> Excelente
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label class="radio">
+                    <input type="radio" name="docente" id="docenteB" value="7.5"> Bueno
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label class="radio">
+                    <input type="radio" name="docente" id="docenteC" value="5"> Regular
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label class="radio">
+                    <input type="radio" name="docente" id="docenteD" value="2.5"> Mala
+                </label>
+            </div>
+            <div class="col-md-2">
+                <label class="radio">
+                    <input type="radio" name="docente" id="docenteE" value="0"> Muy Mala
+                </label>
+            </div>
+        </section>
+                  <br><hr>
+
+                    <!--  Satisfacción General  -->
+                    <section class="row">
+                      <div class="col-md-12">
+                          <h3>Satisfacción General.</h3>
+                          <p></p>
+                      </div>
+                  </section>
+                  <!--  PREGUNTA 15  -->
+                  <section class="row">
+                      <div class="col-md-12">
+                          <p>15- ¿En general está contento con la asignatura?</p>
+                      </div>
+                      <div class="col-md-2">
+                          <label class="radio">
+                              <input type="radio" name="satisfaccion" id="satisfaccionA" value="10"> Excelente
+                          </label>
+                      </div>
+                      <div class="col-md-2">
+                          <label class="radio">
+                              <input type="radio" name="satisfaccion" id="satisfaccionB" value="7.5"> Bueno
+                          </label>
+                      </div>
+                      <div class="col-md-2">
+                          <label class="radio">
+                              <input type="radio" name="satisfaccion" id="satisfaccionC" value="5"> Regular
+                          </label>
+                      </div>
+                      <div class="col-md-2">
+                          <label class="radio">
+                              <input type="radio" name="satisfaccion" id="satisfaccionD" value="2.5"> Mala
+                          </label>
+                      </div>
+                      <div class="col-md-2">
+                          <label class="radio">
+                              <input type="radio" name="satisfaccion" id="satisfaccionE" value="0"> Muy Mala
+                          </label>
+                      </div>
+
+                  </section>
+                  <br />
+                    <!--  Comentarios  -->
+                    <section class="row">
+                        <div class="col-md-12">
+                            <h3>Comentarios.</h3>
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="comment">Comentarios:</label>
+                                <textarea class="form-control" rows="6" id="comentarios"></textarea>
+                            </div>
+                        </div>
+                        <div class="terms">
+                            <input type = "checkbox" name = "terms" onclick = "function enableSending() {
+                                document.encuesta.submit.disabled = !document.encuesta.terms.checked;
+                            }
+                            enableSending();">
+
+                            <label class="terms">He leído y acepto los <a href="https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Tecnologias%20de%20la%20Informacion%20y%20Servicios%20en%20Red/Servicio%20de%20Planificacion%20Informatica%20y%20Comunicaciones/Web%20institucional/POLITICA_PRIVACIDAD_UPM.pdf">Términos y condiciones de privacidad</a></label>
+                        </div>
+                        
+                        <button type="submit" name="submit" value="Send" disabled>Enviar</button>
+                    </section>
+                <br/>
+                <footer class="container">
+                    <p>Todos los derechos reservados para la Universidad Politecnica de Madrid.</p>
+                </footer>
+                </form>
+
+
+            </section>
+        </div>
+    </body>
+</html>
