@@ -1,0 +1,23 @@
+.title{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  h2{
+  color:#FF7F50;
+  margin-left: 20px;
+  margin-top: 40px;
+  
+  
+  }
+  .padre {
+    
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hijo {
+    
+    width: 300px;
+}

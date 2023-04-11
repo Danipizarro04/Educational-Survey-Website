@@ -1,0 +1,33 @@
+
+
+.padre{
+    background: #DEDED7;
+    
+    
+}
+.bienvenido {
+    text-align: center;
+    margin-top: 60px
+}
+
+.docente {
+    text-align: center;
+    color: orange;
+    margin-top: 30px
+}
+.departamento {
+    margin-top: 120px
+}
+.encuestas {
+    text-align: center;
+    color: blue;
+    margin-top: 110px
+}
+.label {
+    color: blue
+}
+.porcentaje{
+    background: #DEDED7;
+    height: 480px;
+    margin-left: 50px;
+}
